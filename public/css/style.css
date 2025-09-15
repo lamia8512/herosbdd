@@ -1,9 +1,10 @@
 
 @import url('https://fonts.google.com/specimen/Exo');
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Fascinate&display=swap" rel="stylesheet');
 
 *{
     margin: 0;
+    box-sizing: border-box; /*définit la façon dont la hauteur et la largeur totale est calculée*/
+    overflow-x: hidden; /*lorsque le contenu dépasse des bords*/
 }
 
 body{
@@ -16,14 +17,10 @@ header{
     justify-content: space-around;
 }
 
-.col-s{
-    width: 30%;
+.col-m{
+    width: 100%;
 }
 
-.col-s img{
-    width: 30%;
-    margin-left: 130px;
-}
 
 h1{
     text-align: center;

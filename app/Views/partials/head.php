@@ -9,3 +9,16 @@
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Héros BDD</h1>
+           
+            <nav>
+                <ul>
+                    <li><a href="accueil">ACCUEIL</a></li>
+                    <li><a href="404.php">404</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
