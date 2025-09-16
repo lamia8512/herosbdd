@@ -17,23 +17,18 @@ header{
     justify-content: space-around;
 }
 
-.col-m{
-    width: 100%;
-}
-
-
 h1{
     text-align: center;
     font-family: "Arizonia", cursive;
     font-size: 50px;
 }
 
-header .container {
+header .contener {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
     flex-direction: column; 
-    background-color: rgb(161, 115, 199);
+    background-color: rgb(159, 206, 149);
     width: 100%;
 }
 
@@ -60,19 +55,18 @@ footer .contener{
     justify-content: space-between; 
     align-items: center;
     flex-direction: column; 
-    background-color: rgb(161, 115, 199);
     width: 100%;
     padding: 40px;
     margin-top: 45px;
 }
 
 
-footer{
+.footer{
     margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.589);
+    background-color: rgb(159, 206, 149);
     padding: 20px;
     text-align: center;
-    color:  rgb(75, 111, 226);
+    color:  rgb(71, 72, 73);
 }
 
 @media screen and (min-width: 1300px){
