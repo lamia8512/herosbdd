@@ -1,3 +1,3 @@
-<footer><p>Lamia DARMON - LePoleS</p></footer>
+<footer class="footer"><p>Lamia DARMON - LePoleS</p></footer>
 </body>
 </html>
