@@ -53,7 +53,7 @@
                     ];
 
                     //var_dump($_SESSION);
-                    redirectToRoute('/');
+                    redirectToRoute('/', 200);
                 }
             }
         
@@ -62,4 +62,3 @@
     }
 
     require_once(__DIR__ . "/../Views/login.view.php");
-    
