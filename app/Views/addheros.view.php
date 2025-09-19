@@ -16,7 +16,7 @@
             ?>
         </div>
         <div class="form-group">
-            <label for="power" class="form-label">Le pouvoir de ton HERO:</label>
+            <label for="power" class="form-label">Le pouvoir de ton HEROS:</label>
             <input type="text" name="power" id="power" placeholder="Ses mouvements son si lent qu'il devient presque imperceptible" class="form-control">
             <?php 
             if(isset($arrayError['power'])){
@@ -27,7 +27,7 @@
             ?>
         </div>
         <div class="form-group">
-            <label for="description" class="form-label">Parle moi de ton HERO:</label>
+            <label for="description" class="form-label">Parle moi de ton HEROS:</label>
             <textarea class="form-control" placeholder="Le plus petit des grands héros !" id="description" name="description" style="height: 100px"></textarea>
             <?php 
             if(isset($arrayError['description'])){
@@ -48,7 +48,7 @@
             }
             ?>
         </div>
-        <button type="submit" class="btn btn-success mt-5">Création du HERO !</button>
+        <button type="submit" class="btn btn-success mt-5">Création du HEROS !</button>
     </div>
 </form>
 <?php
